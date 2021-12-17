@@ -1,3 +1,9 @@
 # Leet Code Problems
 
-01 - Median of two arrays
+
+##Arrays
++ Median of two arrays
++ Even Numbers
++ Sorted Squares
+
+

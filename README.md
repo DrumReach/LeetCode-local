@@ -1,7 +1,7 @@
 # Leet Code Problems
 
 
-##Arrays
+#Arrays
 + Median of two arrays
 + Even Numbers
 + Sorted Squares

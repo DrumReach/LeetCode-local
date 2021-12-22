@@ -1,4 +1,7 @@
 '''
+adds 2 arrays together and 
+finds the median
+
 use // instead of math.floor
 
 '''

@@ -1,4 +1,7 @@
-
+'''
+Finds the amount of numbers with a even anount 
+of digits in a given array
+'''
 def findNumber(nums):
     count = 1
     mastercnt = 0

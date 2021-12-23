@@ -1,35 +1,35 @@
 #include<stdio.h>
 #include<stdlib.h>
+
+#define SIZE 4
+// Looked to discuss :(
+
+
 int swap(int a, int b){
 	int tmp = a;
 	a = b;
 	b = tmp;
 }
-int *removeElement(int* nums, int numsSize, int val){
-	//remove all instances of val from num
-	int count = 0;
-	for(int i = 0; i <numsSize; i++){
-		if(nums[i] == val){
-			count++;
-			swap(nums[i], nums[numsSize - count - 1]);
+int removeElement(int *nums, int numsSize, int val){
+	int k = 0;
+	for(int i = 0; i<numsSize; i++){
+		if (nums[i] != val){
+			nums[k++] = nums[i];
+			//k++;
 		}
 	}
-	return nums;
-
+	return k;
 }
 
 int main(){
-	int k;	
-	int numsSize = 4;
-	int *nums = malloc(sizeof(int)* numsSize);
+	int k;// length of items after moving all val to end
+	int nums[SIZE] = {3,2,2,3};
+	int val = 3;
 	
-	for(int i = 0; i< numsSize; i++){
-		scanf("%d", &nums[i]);
-	}
+	k = removeElement(nums, SIZE, 3);
 	
-	nums = removeElement(nums, numsSize, 3);
-	for(int i = 0; i<numsSize; i++){
-		printf("%d ", nums[i]);
+	//print array
+	for(int i = 0; i<SIZE; i++){
+		printf("%d", nums[i]);
 	}
-	free(nums);
 }

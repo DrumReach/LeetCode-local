@@ -1,9 +1,15 @@
 # Leet Code Problems
 
 
-#Arrays
-+ Median of two arrays
-+ Even Numbers
-+ Sorted Squares
-+ Best time to sell stock(max profit)
+###Arrays101:
+	
+	folders are synced with sections on leet
+
+incluldes:
++ intro
++ insert
++ delete
++ search
++ in-place
++ conclusion
 

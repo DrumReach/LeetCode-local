@@ -1,7 +1,7 @@
 # Leet Code Problems
 
 
-###Arrays101:
+### Arrays101:
 	
 	folders are synced with sections on leet
 
